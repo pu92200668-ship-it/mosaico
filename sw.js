@@ -14,8 +14,8 @@ const urlsToCache = [
 "./l2.jpg",
 "./l3.jpg",
 
-"./icon-192.png",
-"./icon-512.png"
+"./icon-192.jpg",
+"./icon-512.jpg"
 ];
 
 self.addEventListener("install", function(event) {
