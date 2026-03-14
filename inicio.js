@@ -7,7 +7,7 @@ class Inicio extends Phaser.Scene {
     preload(){
 
         // cargar imagen de fondo
-        this.load.image("fondo.jpg");
+this.load.image("fondo", "fondo.jpg");
 
     }
 
