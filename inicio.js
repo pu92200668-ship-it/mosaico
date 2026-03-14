@@ -17,7 +17,7 @@ this.load.image("fondo", "fondo.jpg");
         let fondo = this.add.image(
             this.scale.width / 2,
             this.scale.height / 2,
-            "fondoInicio"
+            "fondo"
         );
 
         fondo.setDisplaySize(this.scale.width, this.scale.height);
