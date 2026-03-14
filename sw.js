@@ -3,13 +3,19 @@ const CACHE_NAME = "juego-cache-v1";
 const urlsToCache = [
 "./",
 "./index.html",
+"./manifest.json",
+
 "./main.js",
 "./carga.js",
 "./inicio.js",
 "./juego.js",
-"./l.jpg",
-"./2.jpg",
-"./3.jpg"
+
+"./l1.jpg",
+"./l2.jpg",
+"./l3.jpg",
+
+"./icon-192.png",
+"./icon-512.png"
 ];
 
 self.addEventListener("install", function(event) {
