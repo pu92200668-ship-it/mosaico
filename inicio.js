@@ -14,7 +14,7 @@ this.load.image("fondo", "fondo.jpg");
     create(){
 
         // AGREGAR FONDO
-        let fondo = this.add.image(
+             let fondo = this.add.image(
             this.scale.width / 2,
             this.scale.height / 2,
             "fondo"
